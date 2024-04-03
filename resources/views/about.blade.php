@@ -15,7 +15,7 @@
                 <ul class="bread-crumb clearfix">
                     <li><a href="{{ route('home')}}">Home</a></li>
 
-                    <li>About us</li>
+                    <li>About Skin Zone</li>
                 </ul>
             </div>
         </div>
