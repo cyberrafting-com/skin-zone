@@ -56,6 +56,7 @@
                                        <ul>
                                            <li><a href="{{ route('hair-treatment')}}">Hair</a></li>
                                            <li><a href="{{ route('skin-treatment')}}">Skin</a></li>
+                                           <li><a href="{{ route('skin-treatment')}}">IV Lounge</a></li>
                                            <li><a href="{{ route('laser-treatment')}}">Laser</a></li>
                                           
                                        </ul>

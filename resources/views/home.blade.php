@@ -16,7 +16,7 @@
     <section class="banner-style-three centred mobile-view-img">
         <div class="banner-carousel owl-theme owl-carousel ">
             <div class="slide-item">
-                <div class="image-layer" style="background-image: url({{ asset('/resources/assets/images/mobile-view-banner1.jpg')}});"></div>
+                <!-- <div class="image-layer" style="background-image: url({{ asset('/resources/assets/images/mobile-view-banner1.jpg')}});"></div> -->
                 <div class="auto-container banner-sec">
                     <div class="content-box">
                         <!-- <p>Committed to Quality Service</p> -->
@@ -48,7 +48,7 @@
 
                     <div class="sec-title centred">
 
-                        <h2 class="" > Welcome to Our Trusted SKIN ZONE Center
+                        <h2 class=""> Welcome to Our Trusted SKIN ZONE Center
                         </h2>
                         <!-- <span class="sub-title">Why Choose Skin Zone Clinics</span> -->
                     </div>
@@ -206,9 +206,78 @@
 
 
     <!-- -hair treatment-- -->
-    <section class="main-tret">
+    <!-- All treatments -->
+    <section class="project-style-two">
+        <div class="auto-container">
+            <!-- <div class="sec-title">
+                    <span class="sub-title">Research</span>
+                    <h2>Latest from case studies</h2>
+                    <div class="btn-box"><a href="index-2.html" class="theme-btn">View More</a></div>
+                </div> -->
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/hair.jpg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <!-- <div class="view-btn"><a href="assets/images/project/project-7.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
+                                <div class="text">
+                                    <h6>Hair</h6>
+                                    <h4><a href="#" class="border-b">Hair loss in men</a></h4>
+                                    <h4><a href="#">Hair loss in women </a></h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/skin.jpg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <!-- <div class="view-btn"><a href="assets/images/project/project-8.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
+                                <div class="text">
+                                    <h6>Skin</h6>
+                                    <h4><a href="#" class="border-b">Fillers and Botox</a></h4>
+                                    <h4><a href="#" class="border-b">Skin tightening</a></h4>
+                                    <h4><a href="#" class="border-b">Facelift</a></h4>
+                                    <h4><a href="#" >HIFU</a></h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/laser.jpg')}}" alt=""></figure>
+                            <div class="content-box">
+                                <!-- <div class="view-btn"><a href="assets/images/project/project-9.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
+                                <div class="text">
+                                    <h6>Laser</h6>
+                                    <h4><a href="#" class="border-b">Pigmentation</a></h4>
+                                    <h4><a href="#" class="border-b">Hair removal</a></h4>
+                                    <h4><a href="#" class="border-b" >Fractional Co2 & MNRF</a></h4>
+                                    <h4><a href="#" >Skin tightening</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- All treatments end -->
 
 
+
+
+
+
+    <!-- <section class="main-tret">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                 <div class="card main-treatment">
@@ -221,10 +290,7 @@
                             <a href="{{ route('home')}}#hair-treatment"> View All</a>
                         </h2>
 
-                        <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                     
                     </div>
                 </div>
             </div>
@@ -239,13 +305,7 @@
                         <h2 class="txt-card">
                             <a href="{{ route('home')}}#skin-treatment"> View All</a>
                         </h2>
-                        <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                        <!-- <a href="#" class="button">
-                        Find out more
-                      
-                    </a> -->
+                     
                     </div>
                 </div>
             </div>
@@ -259,13 +319,7 @@
                         <h2 class="txt-card">
                             <a href="{{ route('home')}}#laser-treatment"> View All</a>
                         </h2>
-                        <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                        <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                   
                     </div>
                 </div>
             </div>
@@ -273,10 +327,7 @@
 
         </div>
 
-
-
-
-    </section>
+    </section> -->
     <!-- main 3 treatments start -->
     <!-- <section class="book-appt-section">
         <div class="container">
@@ -555,8 +606,16 @@
 </section> -->
     <!-- Treatments-section-end -->
 
-    <!-- -hair treatment-- -->
-    <section class="tret">
+
+
+    <!-- NEW hair treatment section -->
+
+    <!-- NEW hair treatment section end -->
+
+    <!---hair treatment-- -->
+
+
+    <!-- <section class="tret">
         <div class="sec-title centred">
 
             <h2 class="" id="hair-treatment"> Hair Treatments
@@ -573,13 +632,7 @@
                             <h2>
                                 Hair Loss in Women
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
                        
-                    </a> -->
                         </div>
                     </div>
                 </a>
@@ -593,13 +646,7 @@
                                 Hair Loss in Men
 
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                      
-                    </a> -->
+                         
                         </div>
                     </div>
                 </a>
@@ -612,13 +659,7 @@
                             <h2>
                                 Dandruff
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                          
                         </div>
                     </div>
                 </a>
@@ -631,9 +672,7 @@
                             <h2>
                                 Alopecia Areata
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
+                     
 
                         </div>
                     </div>
@@ -642,13 +681,10 @@
 
         </div>
 
-
-
-
-    </section>
+    </section> -->
 
     <!-- -skin treatment-- -->
-    <section class="tret skin1">
+    <!-- <section class="tret skin1">
         <div class="sec-title centred">
 
             <h2 class="" id="skin-treatment"> Skin Treatments
@@ -665,13 +701,7 @@
                             <h2>
                                 Acne & Acne Marks and Scars
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                        
                         </div>
                     </div>
                 </a>
@@ -685,13 +715,7 @@
                                 Black Patches & Facial Melanosis
 
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
                       
-                    </a> -->
                         </div>
                     </div>
                 </a>
@@ -704,13 +728,7 @@
                             <h2>
                                 Vitiligo
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                          
                         </div>
                     </div>
                 </a>
@@ -723,9 +741,7 @@
                             <h2>
                                 Chemical Peels
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
+                        
 
                         </div>
                     </div>
@@ -742,13 +758,7 @@
                             <h2>
                                 Facials
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                          
                         </div>
                     </div>
                 </a>
@@ -761,13 +771,7 @@
                             <h2>
                                 Microdermabrasion (Skin Polishing)
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                      
-                    </a> -->
+                         
                         </div>
                     </div>
                 </a>
@@ -780,13 +784,7 @@
                             <h2>
                                 Nails
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                         
                         </div>
                     </div>
                 </a>
@@ -799,13 +797,7 @@
                             <h2>
                                 Anti Ageing
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                       
-                    </a> -->
+                           
                         </div>
                     </div>
                 </a>
@@ -815,11 +807,11 @@
 
 
 
-    </section>
+    </section> -->
 
 
     <!-- -laser treatment-- -->
-    <section class="tret laser1">
+    <!-- <section class="tret laser1">
         <div class="sec-title centred">
 
             <h2 class="" id="laser-treatment"> Laser Treatments
@@ -837,13 +829,7 @@
                                 Laser for Pigmentation
 
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
                        
-                    </a> -->
                         </div>
                     </div>
                 </a>
@@ -857,13 +843,7 @@
                                 Hair Removal
 
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
-                      
-                    </a> -->
+                       
                         </div>
                     </div>
                 </a>
@@ -876,13 +856,7 @@
                             <h2>
                                 Fractional Laser (CO2 & MNRF)
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
-                            <!-- <a href="#" class="button">
-                        Find out more
                        
-                    </a> -->
                         </div>
                     </div>
                 </a>
@@ -896,9 +870,7 @@
                                 Skin Tightening Laser
 
                             </h2>
-                            <!-- <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
-                    </p> -->
+                    
 
                         </div>
                     </div>
@@ -910,7 +882,7 @@
 
 
 
-    </section>
+    </section> -->
 
     <!-- -laser treatment-- -->
 
@@ -1116,11 +1088,7 @@
     <!-- service-section end -->
 
     <!-- footer book appointmet button -->
-    <section class="book-appt-footer" style="background-image: url({{ asset('/resources/assets/images/Clinic-reception_front-footer.png')}});background-position: center;
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;">
+    <section class="book-appt-footer" style="background-image: url({{ asset('/resources/assets/images/Clinic-reception_front-footer.png')}});background-position:center;background-size: over;background-repeat: no-repeat;width: 100%;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
