@@ -22,70 +22,7 @@
     </section>
 
 
-    <!-- about-style-two -->
-    <!-- <section class="about-style-two sec-pad1">
-        <div class="auto-container">
-            <div class="upper-box">
-                <div class="row clearfix mb-4">
-                    <div class="col-lg-5 col-md-12 col-sm-12 image-column">
-                        <figure class="image-box"><img src="{{ asset('/resources/assets/images/Clinic-reception_front-desk-3-scaled.jpg')}}" alt=""></figure>
-                    </div>
-                    <div class="col-lg-7 col-md-12 col-sm-12 content-column">
-                        <div class="content-box">
-                            <div class="sec-title">
-                            
-                                <h2 class="abt-txtt">Skinzone Clinics</h2>
-                            </div>
-                            <div class="text">
-                            <p>Skinzone Clinics, with over 35 years of experience, is dedicated to combating disease and aging with a fervent passion for patient well-being. Our comprehensive approach integrates traditional methods with cutting-edge technology, utilizing light, sound, and thermal energies to enhance your natural beauty.</p>
-                                <p> At Skinzone Clinics, we pride ourselves on the seamless collaboration between dermatologists and plastic surgeons, working together to provide customized care tailored to your individual needs. With us, you'll experience timeless innovation
-                                            , ensuring you receive nothing but the highest standard of rejuvenation and care.</p>
-                            </div>
-
-
-                        </div>
-                        <div class="row">
-                    <div class="col-md-4">
-                        <div class="ii-sec">
-                            <i aria-hidden="true" class="fas fa-user-md"></i>
-                            <h4 class="title-abtt1"> Our Experts</h4>
-
-                            <p> Are highly skilled team dedicated to providing personalized care and achieving optimal results for our patients.</p>
-
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="ii-sec">
-                            <i class="fa-solid fa-hands-holding"></i>
-
-                            <h4 class="title-abtt1">Advanced Technologies</h4>
-                            <p>We offer advanced treatments for diverse skin concerns, ensuring safety.</p>
-
-
-                        </div>
-
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ii-sec">
-                            <i aria-hidden="true" class="fas fa-medal"></i>
-
-                            <h4 class="title-abtt1">Superior Results</h4>
-                            <p>Committed to superior results, enhancing natural beauty and confidence.</p>
-
-                        </div>
-
-
-                    </div>
-                </div>
-                    </div>
-                </div>
-               
-            </div>
-
+    
         </div>
     </section> -->
     <!-- about-style-two end -->
