@@ -43,9 +43,7 @@
         <div class="auto-container">
             <div class="inner-container">
 
-                <div class="row ">
-
-
+                <div class="row">
                     <div class="sec-title centred">
 
                         <h2 class=""> Welcome to Our Trusted SKIN ZONE Center
@@ -242,6 +240,24 @@
                                     <h4><a href="#" class="border-b">Fillers and Botox</a></h4>
                                     <h4><a href="#" class="border-b">Skin tightening</a></h4>
                                     <h4><a href="#" class="border-b">Facelift</a></h4>
+                                    <h4><a href="#" >HIFU</a></h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                    <div class="project-block-two">
+                        <div class="inner-box">
+                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/IV-lounge.jpg)}}" alt=""></figure>
+                            <div class="content-box">
+                                <!-- <div class="view-btn"><a href="assets/images/project/project-8.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
+                                <div class="text">
+                                    <h6>IV LOUNGE</h6>
+                                    <h4><a href="#" class="border-b">Glutathione</a></h4>
+                                    <h4><a href="#" class="border-b">Vitamin C</a></h4>
+                                    <h4><a href="#" class="border-b">Multi Complex Vitamins</a></h4>
                                     <h4><a href="#" >HIFU</a></h4>
 
                                 </div>
