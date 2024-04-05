@@ -206,7 +206,7 @@
     <!-- -hair treatment-- -->
     <!-- All treatments -->
     <section class="project-style-two">
-        <div class="auto-container">
+        <div class="auto-container all-treat">
             <!-- <div class="sec-title">
                     <span class="sub-title">Research</span>
                     <h2>Latest from case studies</h2>
