@@ -39,7 +39,7 @@
     <!-- banner-style-three end -->
 
     <!-- Why Choose Skin Zone Clinics -->
-    <section class="newsletter-section">
+    <!-- <section class="newsletter-section">
         <div class="auto-container">
             <div class="inner-container">
 
@@ -48,7 +48,7 @@
 
                         <h2 class=""> Welcome to Our Trusted SKIN ZONE Center
                         </h2>
-                        <!-- <span class="sub-title">Why Choose Skin Zone Clinics</span> -->
+                      
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12 form-column">
                         <div class="icon first"><i class="fa-solid fa-briefcase-medical icon-chose"></i></div>
@@ -76,7 +76,69 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
+
+
+    <!-- Why Skin Zone -->
+    <div class="careplus-main-section careplus-services-full">
+        <div class="container">
+            <div class="sec-title text-center">
+
+                <h2>Why Skin Zone</h2>
+                <!-- <span class="sub-title">Images are Indicative, Result May Vary Person to Person.</span> -->
+            </div>
+            <div class="row">
+
+                <div class="col-md-12">
+                    <!-- <div class="careplus-fancy-title">
+                                <h2>Why Skin Spirit</h2>
+                                <span><small></small><i class="icon-tool5"></i></span>
+                            </div> -->
+                    <div class="careplus-service careplus-service-grid">
+                        <ul class="row">
+                            <li class="col-md-3">
+                                <div class="careplus-service-wrap">
+                                    <img src="/images/skincare 2.png" alt="" height="70px" width="70px">
+                                    <h5 style="padding: 10px;">Highly Equipped Machines</h5>
+
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="careplus-service-wrap">
+                                    <img src="/images/hair.png" alt="" height="70px" width="70px">
+                                    <h5 style="padding: 10px;">Wide Range of Services</h5>
+
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="careplus-service-wrap">
+                                    <img src="/images/laser.png" alt="" height="70px" width="70px">
+                                    <h5 style="padding: 10px;">Certified Surgeons and Dermatologists</h5>
+
+                                </div>
+                            </li>
+                            <li class="col-md-3">
+                                <div class="careplus-service-wrap">
+                                    <img src="/images/aesthecity.png" alt="" height="70px" width="70px">
+                                    <h5 style="padding: 10px;">An Unique Experience</h5>
+
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Why Skin Zone end -->
+
+    <!--  -->
+
+
+
+
     <!-- newsletter-section end -->
 
 
@@ -212,6 +274,11 @@
                     <h2>Latest from case studies</h2>
                     <div class="btn-box"><a href="index-2.html" class="theme-btn">View More</a></div>
                 </div> -->
+            <div class="sec-title text-center">
+
+                <h2>Services</h2>
+                <!-- <span class="sub-title">Images are Indicative, Result May Vary Person to Person.</span> -->
+            </div>
             <div class="row clearfix">
                 <div class="col-lg-3 col-md-3 col-sm-12 project-block">
                     <div class="project-block-two">
@@ -240,7 +307,7 @@
                                     <h4><a href="{{ route('skin-treatment')}}" class="border-b">Fillers and Botox</a></h4>
                                     <h4><a href="{{ route('skin-treatment')}}" class="border-b">Skin tightening</a></h4>
                                     <h4><a href="{{ route('skin-treatment')}}" class="border-b">Facelift</a></h4>
-                                    <h4><a href="{{ route('skin-treatment')}}" >HIFU</a></h4>
+                                    <h4><a href="{{ route('skin-treatment')}}">HIFU</a></h4>
 
                                 </div>
                             </div>
@@ -258,7 +325,7 @@
                                     <h4><a href="#" class="border-b">Glutathione</a></h4>
                                     <h4><a href="#" class="border-b">Vitamin C</a></h4>
                                     <h4><a href="#" class="border-b">Multi Complex Vitamins</a></h4>
-                                    <h4><a href="#" >HIFU</a></h4>
+                                    <h4><a href="#">HIFU</a></h4>
 
                                 </div>
                             </div>
@@ -275,8 +342,8 @@
                                     <h6>Laser</h6>
                                     <h4><a href="{{ route('laser-treatment')}}" class="border-b">Pigmentation</a></h4>
                                     <h4><a href="{{ route('laser-treatment')}}" class="border-b">Hair removal</a></h4>
-                                    <h4><a href="{{ route('laser-treatment')}}" class="border-b" >Fractional Co2 & MNRF</a></h4>
-                                    <h4><a href="{{ route('laser-treatment')}}" >Skin tightening</a></h4>
+                                    <h4><a href="{{ route('laser-treatment')}}" class="border-b">Fractional Co2 & MNRF</a></h4>
+                                    <h4><a href="{{ route('laser-treatment')}}">Skin tightening</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -904,6 +971,139 @@
 
 
 
+
+    <!-- FACIALS TO TREAT YOURSELF WITH-->
+
+    <div class="wrapper">
+        <div class="lw-tabs">
+            <div class="lw-tab-fixed">
+                <h2>FACIALS TO TREAT YOURSELF WITH</h2>
+                <div id="lw-tab-nav" data-tab-nav="" class="lw-tab-nav">
+
+                    <ul>
+                        <li class="is-active">
+                            <a href="#lw-tab-1" data-tab="#lw-tab-1"><span>Chemical peel</span></a>
+                        </li>
+                        <li>
+                            <a href="#lw-tab-2" data-tab="#lw-tab-2"><span>Laser skin rejuvenation</span></a>
+                        </li>
+                        <li>
+                            <a href="#lw-tab-3" data-tab="#lw-tab-3"><span>Microdermabrasion</span></a>
+                        </li>
+                        <li>
+                            <a href="#lw-tab-4" data-tab="#lw-tab-4"><span>HydraFacial</span></a>
+                        </li>
+                    </ul>
+                </div> <!-- /tab-nav -->
+            </div>
+
+            <div id="lw-tab-panels" data-tab-panels="" class="lw-tab-panels">
+
+                <a href="#lw-tab-1" data-accordion-header="" class="lw-accordion-header theme-blue is-active">Experience</a>
+
+                <div id="lw-tab-1" data-tab-panel="" class="lw-tab-panel theme-blue">
+
+                    <div class="lw-tab-content">
+                        <div class="lw-tab-text-move">
+                            <!-- <h3>Lorem Ipsum Dolor</h3> -->
+                            <div class="lap-and-up-only">
+                                <p>Renew your skin's glow and texture with a chemical peel, removing dead skin cells and revealing a smoother complexion.</p>
+                            </div>
+                            <p>
+
+                            <div class="btn-txt">
+                                <a href="#" class="btn">Know More</a>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lw-tab-image">
+                        <div class="lw-tab-image-dimmer"></div>
+                        <!-- <div class="stat lw-tab-text-move">
+                        <p><b>200+</b> Miles of Trails</p>
+                    </div> -->
+                    </div>
+                </div>
+
+                <a href="#lw-tab-2" data-accordion-header="" class="lw-accordion-header theme-purple">Inspire</a>
+
+                <div id="lw-tab-2" data-tab-panel="" class="lw-tab-panel theme-purple">
+
+                    <div class="lw-tab-content">
+                        <div class="lw-tab-text-move">
+                            <!-- <h3>Lorem Ipsum Dolor</h3> -->
+                            <div class="lap-and-up-only">
+                                <p>Harness the power of laser technology to refresh and revitalize your skin, reducing wrinkles, pigmentation, and acne scars for a more youthful appearance.</p>
+                            </div>
+                            <p>
+                            <div class="btn-txt">
+                                <a href="#" class="btn">Know More</a>
+                            </div>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lw-tab-image">
+                        <div class="lw-tab-image-dimmer"></div>
+                        <!-- <div class="stat lw-tab-text-move">
+                        <p><b>7000+</b> Things of Note</p>
+                    </div> -->
+                    </div>
+                </div>
+
+                <a href="#lw-tab-3" data-accordion-header="" class="lw-accordion-header theme-green">Explore</a>
+
+                <div id="lw-tab-3" data-tab-panel="" class="lw-tab-panel theme-green">
+
+                    <div class="lw-tab-content">
+                        <div class="lw-tab-text-move">
+                            <!-- <h3>Lorem Ipsum Dolor</h3> -->
+                            <div class="lap-and-up-only">
+                                <p> Achieve smooth and radiant skin with microdermabrasion, a gentle exfoliation technique that buffs away dead skin cells and unclogs pores.</p>
+                            </div>
+                            <p>
+                            <div class="btn-txt">
+                                <a href="#" class="btn">Know More</a>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lw-tab-image">
+                        <div class="lw-tab-image-dimmer"></div>
+                        <!-- <div class="stat lw-tab-text-move">
+                        <p><b>100+</b> Things of Note</p>
+                    </div> -->
+                    </div>
+                </div>
+
+                <a href="#lw-tab-4" data-accordion-header="" class="lw-accordion-header theme-yellow">Connect</a>
+
+                <div id="lw-tab-4" data-tab-panel="" class="lw-tab-panel theme-yellow">
+
+                    <div class="lw-tab-content">
+                        <div class="lw-tab-text-move">
+                            <!-- <h3>Lorem Ipsum Dolor</h3> -->
+                            <div class="lap-and-up-only">
+                                <p>Hydrate and nourish your skin with a HydraFacial, a multi-step treatment that cleanses, exfoliates, extracts, and hydrates, leaving your skin glowing and rejuvenated.</p>
+                            </div>
+                            <p>
+                            <div class="btn-txt">
+                                <a href="#" class="btn">Know More</a>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lw-tab-image">
+                        <div class="lw-tab-image-dimmer"></div>
+                        <!-- <div class="stat lw-tab-text-move">
+                        <p><b>1000</b> Things of Note</p>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FACIALS TO TREAT YOURSELF WITH END-->
 
 
     <!-- before after images -->
