@@ -206,14 +206,14 @@
     <!-- -hair treatment-- -->
     <!-- All treatments -->
     <section class="project-style-two">
-        <div class="auto-container">
+        <div class="auto-container all-treat">
             <!-- <div class="sec-title">
                     <span class="sub-title">Research</span>
                     <h2>Latest from case studies</h2>
                     <div class="btn-box"><a href="index-2.html" class="theme-btn">View More</a></div>
                 </div> -->
             <div class="row clearfix">
-                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                <div class="col-lg-3 col-md-3 col-sm-12 project-block">
                     <div class="project-block-two">
                         <div class="inner-box">
                             <figure class="image-box"><img src="{{ asset('/resources/assets/images/hair.jpg')}}" alt=""></figure>
@@ -221,15 +221,15 @@
                                 <!-- <div class="view-btn"><a href="assets/images/project/project-7.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
                                 <div class="text">
                                     <h6>Hair</h6>
-                                    <h4><a href="#" class="border-b">Hair loss in men</a></h4>
-                                    <h4><a href="#">Hair loss in women </a></h4>
+                                    <h4><a href="{{ route('hair-treatment')}}" class="border-b">Hair loss in men</a></h4>
+                                    <h4><a href="{{ route('hair-treatment')}}">Hair loss in women </a></h4>
 
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                <div class="col-lg-3 col-md-3 col-sm-12 project-block">
                     <div class="project-block-two">
                         <div class="inner-box">
                             <figure class="image-box"><img src="{{ asset('/resources/assets/images/skin.jpg')}}" alt=""></figure>
@@ -237,20 +237,20 @@
                                 <!-- <div class="view-btn"><a href="assets/images/project/project-8.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
                                 <div class="text">
                                     <h6>Skin</h6>
-                                    <h4><a href="#" class="border-b">Fillers and Botox</a></h4>
-                                    <h4><a href="#" class="border-b">Skin tightening</a></h4>
-                                    <h4><a href="#" class="border-b">Facelift</a></h4>
-                                    <h4><a href="#" >HIFU</a></h4>
+                                    <h4><a href="{{ route('skin-treatment')}}" class="border-b">Fillers and Botox</a></h4>
+                                    <h4><a href="{{ route('skin-treatment')}}" class="border-b">Skin tightening</a></h4>
+                                    <h4><a href="{{ route('skin-treatment')}}" class="border-b">Facelift</a></h4>
+                                    <h4><a href="{{ route('skin-treatment')}}" >HIFU</a></h4>
 
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                <div class="col-lg-3 col-md-3 col-sm-12 project-block">
                     <div class="project-block-two">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/IV-lounge.jpg)}}" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/IV-lounge.jpg')}}" alt=""></figure>
                             <div class="content-box">
                                 <!-- <div class="view-btn"><a href="assets/images/project/project-8.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
                                 <div class="text">
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 project-block">
+                <div class="col-lg-3 col-md-3 col-sm-12 project-block">
                     <div class="project-block-two">
                         <div class="inner-box">
                             <figure class="image-box"><img src="{{ asset('/resources/assets/images/laser.jpg')}}" alt=""></figure>
@@ -273,10 +273,10 @@
                                 <!-- <div class="view-btn"><a href="assets/images/project/project-9.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
                                 <div class="text">
                                     <h6>Laser</h6>
-                                    <h4><a href="#" class="border-b">Pigmentation</a></h4>
-                                    <h4><a href="#" class="border-b">Hair removal</a></h4>
-                                    <h4><a href="#" class="border-b" >Fractional Co2 & MNRF</a></h4>
-                                    <h4><a href="#" >Skin tightening</a></h4>
+                                    <h4><a href="{{ route('laser-treatment')}}" class="border-b">Pigmentation</a></h4>
+                                    <h4><a href="{{ route('laser-treatment')}}" class="border-b">Hair removal</a></h4>
+                                    <h4><a href="{{ route('laser-treatment')}}" class="border-b" >Fractional Co2 & MNRF</a></h4>
+                                    <h4><a href="{{ route('laser-treatment')}}" >Skin tightening</a></h4>
                                 </div>
                             </div>
                         </div>
