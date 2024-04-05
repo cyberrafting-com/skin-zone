@@ -250,7 +250,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 project-block">
                     <div class="project-block-two">
                         <div class="inner-box">
-                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/IV-lounge.jpg)}}" alt=""></figure>
+                            <figure class="image-box"><img src="{{ asset('/resources/assets/images/IV-lounge.jpg')}}" alt=""></figure>
                             <div class="content-box">
                                 <!-- <div class="view-btn"><a href="assets/images/project/project-8.jpg" class="lightbox-image" data-fancybox="gallery"><i class="flaticon-zoom-in"></i></a></div> -->
                                 <div class="text">
